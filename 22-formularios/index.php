@@ -1,3 +1,5 @@
+<!-- POST -->
+
 <html>
     <body>
             <form action="dados.php" method="POST">

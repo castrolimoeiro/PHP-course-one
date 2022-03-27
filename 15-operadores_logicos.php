@@ -38,8 +38,9 @@ endif;*/
 
 // adicionando a ! dizemos que o nome não é "David" e para retornar verdadeiro as duas afirmações 
 // têm que ser verdadeiras.
-if (!($nome == "Davidd") and ($idade == 33)): // retornará verdadeiro pq o nome está diferente
+if (($nome == "David") and ($idade == 33)): // retornará verdadeiro pq o nome está diferente
     echo "A afirmação é verdadeira.";
 else:
     echo "A afirmação é falsa.";
 endif;
+
